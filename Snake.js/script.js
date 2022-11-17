@@ -77,8 +77,6 @@ function moveOutcomes() {
 
 // arrow controls
 function control(e) {
- squares[currentIndex].classList.remove('snake');
-
  if(e.keyCode ===39) {
   direction = 1;
  } else if(e.keyCode === 38) {
